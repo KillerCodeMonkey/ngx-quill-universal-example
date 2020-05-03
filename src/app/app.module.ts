@@ -9,9 +9,11 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   imports: [
-    BrowserModule.withServerTransition({ appId: 'tour-of-heroes' }),
+    BrowserModule.withServerTransition({ appId: 'ngx-quill-universal' }),
     FormsModule,
-    QuillModule.forRoot()
+    QuillModule.forRoot({
+      suppressGlobalRegisterWarning: true
+    })
   ],
   declarations: [
     AppComponent
@@ -21,7 +23,8 @@ import { AppComponent } from './app.component';
 export class AppModule {
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
-    @Inject(APP_ID) private appId: string) {
+    @Inject(APP_ID) private appId: string
+  ) {
     const platform = isPlatformBrowser(platformId) ?
       'in the browser' : 'on the server';
     console.log(`Running ${platform} with appId=${appId}`);

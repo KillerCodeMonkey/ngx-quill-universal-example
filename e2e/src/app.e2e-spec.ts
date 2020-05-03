@@ -35,7 +35,7 @@ class Hero {
 }
 
 describe('Universal', () => {
-  const expectedH1 = 'Tour of Heroes';
+  const expectedH1 = 'ngx-quill universal';
   const expectedTitle = `${expectedH1}`;
   const targetHero = { id: 15, name: 'Magneta' };
   const targetHeroDashboardIndex = 3;
