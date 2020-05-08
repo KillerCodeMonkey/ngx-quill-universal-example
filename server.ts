@@ -8,11 +8,6 @@ import { AppServerModule } from './src/main.server';
 import { APP_BASE_HREF } from '@angular/common';
 import { existsSync } from 'fs';
 
-// ssr DOM
-const domino = require('domino');
-const fs = require('fs');
-const path = require('path');
-
 // The Express app is exported so that it can be used by serverless Functions.
 export function app() {
   const server = express();

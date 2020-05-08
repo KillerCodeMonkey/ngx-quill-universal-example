@@ -6022,10 +6022,10 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-ngx-quill@^9.2.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/ngx-quill/-/ngx-quill-9.2.0.tgz#9f108514b9abcefe1c8411a443a4142c9f803458"
-  integrity sha512-G0L3l9Ny3bRrnJn8MnXmZHiNTRkXhzLVNb8DbGyWLpnlm3Stix8y6uZGsS6zaNY0b6X/nhVHZfzp0KiuOf8naw==
+ngx-quill@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/ngx-quill/-/ngx-quill-10.0.1.tgz#83ea594591b561a968206ee171209389e360ccb4"
+  integrity sha512-DW1PBsVZSOD6cquFGdVPW52opvbhckIaQBwC1FJqZnkxKUMHsz1MUMK1UOd6aKe4C1HRsRH5fuTNBy+u++N0gw==
 
 nice-try@^1.0.4:
   version "1.0.5"
