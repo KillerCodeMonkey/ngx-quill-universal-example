@@ -5076,10 +5076,10 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-ngx-quill@^17.0.0:
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/ngx-quill/-/ngx-quill-17.0.0.tgz#05652cf19355cbd6a35b71e7e61e928971757ee6"
-  integrity sha512-mAoLdhdsE8dfr/gd2OtxeSkMjYgecgw6t81rA1TMNiXMcjaH+v48L1dEpfDKYgyZv/VANjWYKWr9h22GEvNchA==
+ngx-quill@^19.0.0:
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-quill/-/ngx-quill-19.0.0.tgz#2539908c6771e07da1348f651fb00ced4aa90ec8"
+  integrity sha512-6K9jKQjUtr/qjmPvxPABfEHuYHrDIitES3XzPKyJVp9KQRljh3QRsjrCCrQ35sw+G/37uf0fir80b4zYCoOzfQ==
   dependencies:
     tslib "^2.3.0"
 
