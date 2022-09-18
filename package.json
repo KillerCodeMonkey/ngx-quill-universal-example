@@ -10,7 +10,7 @@
     "lint": "tslint ./src/**/*.ts -t verbose",
     "e2e": "ng e2e",
     "dev:ssr": "ng run angular.io-example:serve-ssr",
-    "build:ssr": "ng build --prod && ng run angular.io-example:server:production",
+    "build:ssr": "ng build --configuration production && ng run angular.io-example:server:production",
     "serve:ssr": "node dist/server/main.js",
     "prerender": "ng run angular.io-example:prerender"
   },
